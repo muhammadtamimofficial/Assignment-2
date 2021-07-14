@@ -161,7 +161,7 @@ footer p{
 -------------------------*/
 @media only screen and (max-width:688px) {
         .first-section{
-            width: 100%;
+            width: 551px;
             height: 775px;
         }
         .first-container{
