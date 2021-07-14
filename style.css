@@ -1,14 +1,20 @@
+/*---------------
+     all body 
+-----------------*/
 body{
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(110, 97, 97);
 }
+/* -------------------------
+          first-section
+    --------------------- */
 .first-section{
     background-color: #2D25A0;
     height: 450px;
     width: 100%;
-    padding-top:50px;
+    padding-top:20px;
 }
 .main-title{
     color: white;
@@ -145,4 +151,36 @@ footer h4{
 }
 footer p{
     color: rgb(95, 89, 89);
+}
+/*----------------------------
+ responsive media queries
+------------------------------ */
+
+/*-----------------------
+     mobile devices
+-------------------------*/
+@media only screen and (max-width:688px) {
+        .first-section{
+            width: 100%;
+            height: 775px;
+        }
+        .first-container{
+            display: grid;
+            grid-template-columns: repeat(1 , 1fr);
+        }
+        .first-content{
+            flex-direction: column;
+            padding-bottom: 40px;
+        }
+        .players{
+            display: grid;
+            grid-template-columns: repeat(1 ,1fr);
+        }
+        .player-box{
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+         .third-container , .third-container-two{
+            display:none;
+        }
 }
