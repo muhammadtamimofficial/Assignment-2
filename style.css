@@ -203,3 +203,30 @@ footer p{
     /*-------------------------
            Tablet devices
     --------------------------- */
+    @media only screen and (min-width:688px) and (max-width:992px) {
+        .first-section{
+            background-color: rgb(228, 52, 52);
+            width: 100%;
+        }
+        .first-container {
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+        }
+        .players{
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            margin-right: 10px;
+        }
+        .third-container{
+            width: 100%;
+            /* margin: 3px 10px; */
+        }
+        .third-content{
+            margin: 0px;
+            padding: 0px;
+            margin: 0px 10px;
+        }
+        .third-content h1{
+            font-size: 44px;
+        }
+    }
