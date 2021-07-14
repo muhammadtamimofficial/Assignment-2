@@ -205,7 +205,6 @@ footer p{
     --------------------------- */
     @media only screen and (min-width:688px) and (max-width:992px) {
         .first-section{
-            background-color: rgb(228, 52, 52);
             width: 100%;
         }
         .first-container {
