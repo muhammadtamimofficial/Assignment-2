@@ -14,6 +14,9 @@ body{
     color: white;
     font-size: 50px;
 }
+.first-content .Game-name{
+    color: rgba(255, 71, 200, 0.719);
+}
 .first-container{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
@@ -68,4 +71,78 @@ body{
 .player :hover{
     transform: scale(1.4);
     transition: transform 1s;
+}
+.third-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 60px;
+}
+.third-content{
+    padding: 0px 100px;
+}
+.third-content h1{
+    margin-top: 10px;
+}
+.third-content p{
+    text-align: justify;
+    margin-top: -30px;
+    margin-bottom: 38px;
+}
+.third-content .watch-now{
+    text-decoration: none;
+    background-image: linear-gradient(#2d25a0,#5650a3);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+.third-content .watch-now:hover{
+    background-image: linear-gradient(rgb(248, 27, 27),rgb(241, 81, 53));
+    border-radius: 5px;
+    color: rgb(182, 174, 174);
+}
+.third-content img{
+    height: 427px;
+    width: 567px;
+}
+.third-content .game-name{
+    color: tomato;
+}
+.third-container-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    font-size: 30px;
+}
+.social-media li{
+    padding-left: 10px;
+}
+.social-media li :hover{
+    color: rgb(241, 132, 113);
+}
+footer{
+    background-color:#0F0F11;
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer h1{
+    font-size: 40px;
+    color: rgb(110, 97, 97);
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+footer .game-name{
+    color: tomato;
+}
+footer h4{
+    color:rgb(155, 139, 139);
+    font-size: 17px;
+    margin-top: -15px;
+}
+footer p{
+    color: rgb(95, 89, 89);
 }
